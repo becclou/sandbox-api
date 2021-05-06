@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node ./src/helloWorld.js"
   },
   "repository": {
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/becclou/sandbox-api#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
